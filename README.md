@@ -39,7 +39,10 @@ matches the real answer.</p>
 <p>Print that out to the webpage.</p>
 
 
-
+### How to install it
+```
+git clone repo_name
+```
 
 
 
