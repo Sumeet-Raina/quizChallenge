@@ -1,6 +1,6 @@
 # quizChallenge
 
-<p> ##For this challenge build a simple quiz program.</p>
+ ##For this challenge build a simple quiz program.
 
 <p>It will ask a series of questions and evaluate each answer.</p>
 
