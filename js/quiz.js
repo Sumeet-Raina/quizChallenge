@@ -24,3 +24,5 @@ html = "You got " + correctAnswers + " questions right.";
 function print(message) {
   document.write(message);
 }
+
+print(html);
