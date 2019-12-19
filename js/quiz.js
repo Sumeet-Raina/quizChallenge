@@ -18,6 +18,9 @@ for(var i = 0; i < questions.length; i += 1 ){
 
   if (response === answer) {
     correctAnswers += 1;
+    correct.push(question);
+ } else {
+    wrong.push(question);
  }
 }
 
