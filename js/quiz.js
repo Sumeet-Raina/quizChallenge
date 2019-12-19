@@ -8,6 +8,8 @@ var question;
 var answer;
 var response;
 var html;
+var correct = [];
+var wrong = [];
 
 for(var i = 0; i < questions.length; i += 1 ){
   question = questions[i][0];
