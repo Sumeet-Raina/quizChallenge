@@ -22,8 +22,8 @@ for(var i = 0; i < questions.length; i += 1 ){
 html = "You got " + correctAnswers + " questions right.";
 
 function print(message) {
-  document.getElementById('output');
-  
+  var outputDiv = document.getElementById('output');
+  outputDiv.innerHTML = message;
 }
 
 print(html);
