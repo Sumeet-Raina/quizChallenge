@@ -11,6 +11,18 @@ var html;
 var correct = [];
 var wrong = [];
 
+function print(message) {
+  var outputDiv = document.getElementById('output');
+  outputDiv.innerHTML = message;
+}
+
+function buildList(arr) {
+  var listHTML = '<ol>';
+  for (var i = 0; i < arr.length; i += 1) {
+    listHTML += '<li>' + arr[i] + '</li>';
+  }
+}
+
 for(var i = 0; i < questions.length; i += 1 ){
   question = questions[i][0];
   answer  = questions[i][1];
@@ -26,9 +38,6 @@ for(var i = 0; i < questions.length; i += 1 ){
 
 html = "You got " + correctAnswers + " questions right.";
 
-function print(message) {
-  var outputDiv = document.getElementById('output');
-  outputDiv.innerHTML = message;
-}
+
 
 print(html);
